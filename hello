@@ -1,1 +1,12 @@
-this is my first time in github 
+/*exchanging the values of two variables*/
+#include<stdio.h>
+main()
+{
+int a,b,t;
+scanf("%d%d",&a,&b);
+printf("the value of a is %d\nthe value of b is %d\n",a,b);
+a=t;
+a=b;
+b=a;
+printf("the value of a is %d\nthe value of b is %d",a,b);
+}
